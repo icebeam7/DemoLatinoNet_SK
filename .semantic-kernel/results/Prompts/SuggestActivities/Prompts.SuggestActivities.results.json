@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "pluginName": "Prompts",
+    "functionName": "SuggestActivities",
+    "description": "Suggest activities and points of interest at a given destination in JSON format (activity, poi)",
+    "filePath": "Prompts\\SuggestActivities\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "serviceId": "gpt-4",
+                "aiService": "AzureOpenAI",
+                "deploymentName": "gpt-4",
+                "endpoint": "https://utb-openai.openai.azure.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-4",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "executionSettings": {},
+            "output": {
+                "prompt": "You are an experienced travel agent. \r\nYou are helpful, creative, and very friendly. \r\n\r\nThe traveler would like some activity recommendations for their trip to Mexico City.\r\nPlease suggest a list of things to do, see, and points of interest.",
+                "durationInMilliseconds": 20894.1273,
+                "inputTokens": 49,
+                "outputTokens": 538,
+                "result": "Sure, absolutely. Mexico City is a vibrant place that has a lot to offer. Below is a wide array of suggestions depending on your interest:\n\n1. **Visit the Zócalo** - The Plaza de la Constitución, or Zócalo, is one of the largest city squares in the world and it's a must visit due to its cultural and political importance.\n\n2. **Wander around Coyoacán** - One of the most beautiful neighbourhoods in the city, where you can see the home of artist Frida Kahlo, the Casa Azul, which now serves as a museum.\n\n3. **Explore Xochimilco’s Floating Gardens** - Have a unique experience in the colourful ‘trajineras’, traditional floating boats. It's an UNESCO World Heritage site.\n\n4. **Discover Chapultepec Castle** - A great combination of history and beauty, you can also have an outstanding city view from here.\n\n5. **Visit Teotihuacan Pyramids** - Known as the place where the gods were created, it's about an hour away from Mexico City, but it worth the visit.\n\n6. **Palacio de Bellas Artes** - A must for all art lovers due to its murals from Diego Riviera, David Alfaro Siqueiros and José Clemente Orozco, plus it's a stunning architectural beauty.\n\n7. **Try Street Food and Visit Local Markets** - Food is definitely an important part of Mexican culture. \n\n8. **Visit Museo Soumaya** - Art museum with over 66,000 pieces of art from 30 centuries of art and free admission.\n\n9. **Walking Tour at Centro Historico** - Historical area with beautiful architecture, endless shops, street artists and cafes.\n\n10. **Visit The Metropolitan Cathedral** -  One of the oldest and largest cathedrals in the Americas.\n\n11. **Angel of Independence monument** - An iconic symbol in Mexico.\n\n12. **Visit the Frida Kahlo Museum** - Known as the Blue House, is one of the most popular spots in the city.\n\n13. **Explore National Museum of Anthropology** -  It has significant archaeological and anthropological artifacts from Mexico pre-Columbian heritage.\n\n14. **Try Lucha Libre Mexican wrestling** - A fun way to immerse yourself in Mexican culture.\n\n15. **Tour in Palacio Nacional** - A governmental building with murals by Diego Riviera.\n\nThis list is just the tip of the iceberg and Mexico City has a lot more to offer. Please let me know specific interests and I can refine the list. Enjoy your trip!",
+                "chatCompletionResult": "Sure, absolutely. Mexico City is a vibrant place that has a lot to offer. Below is a wide array of suggestions depending on your interest:\n\n1. **Visit the Zócalo** - The Plaza de la Constitución, or Zócalo, is one of the largest city squares in the world and it's a must visit due to its cultural and political importance.\n\n2. **Wander around Coyoacán** - One of the most beautiful neighbourhoods in the city, where you can see the home of artist Frida Kahlo, the Casa Azul, which now serves as a museum.\n\n3. **Explore Xochimilco’s Floating Gardens** - Have a unique experience in the colourful ‘trajineras’, traditional floating boats. It's an UNESCO World Heritage site.\n\n4. **Discover Chapultepec Castle** - A great combination of history and beauty, you can also have an outstanding city view from here.\n\n5. **Visit Teotihuacan Pyramids** - Known as the place where the gods were created, it's about an hour away from Mexico City, but it worth the visit.\n\n6. **Palacio de Bellas Artes** - A must for all art lovers due to its murals from Diego Riviera, David Alfaro Siqueiros and José Clemente Orozco, plus it's a stunning architectural beauty.\n\n7. **Try Street Food and Visit Local Markets** - Food is definitely an important part of Mexican culture. \n\n8. **Visit Museo Soumaya** - Art museum with over 66,000 pieces of art from 30 centuries of art and free admission.\n\n9. **Walking Tour at Centro Historico** - Historical area with beautiful architecture, endless shops, street artists and cafes.\n\n10. **Visit The Metropolitan Cathedral** -  One of the oldest and largest cathedrals in the Americas.\n\n11. **Angel of Independence monument** - An iconic symbol in Mexico.\n\n12. **Visit the Frida Kahlo Museum** - Known as the Blue House, is one of the most popular spots in the city.\n\n13. **Explore National Museum of Anthropology** -  It has significant archaeological and anthropological artifacts from Mexico pre-Columbian heritage.\n\n14. **Try Lucha Libre Mexican wrestling** - A fun way to immerse yourself in Mexican culture.\n\n15. **Tour in Palacio Nacional** - A governmental building with murals by Diego Riviera.\n\nThis list is just the tip of the iceberg and Mexico City has a lot more to offer. Please let me know specific interests and I can refine the list. Enjoy your trip!"
+            }
+        }
+    ]
+}
